@@ -75451,7 +75451,7 @@ s=new Q.aez(new M.a4o("https://ropsten.infura.io/v3/4c80c6dcc36745e59c312ce01cfa
 s.d=new Q.agx(H.a([],t.dN),s,H.a([],t.RD))
 r.e=s
 r.nB(r.r)},
-N(a,b){var s=this,r=null,q=Z.adr(s.f,C.D8,r),p=D.aog(L.bj("Get",r,r,r,r,r,r),new V.akE(s)),o=B.ku(r,L.hA(C.D1,r),24,new V.akF(s),r),n=s.y
+N(a,b){var s=this,r=null,q=Z.adr(s.f,C.D8,r),p=D.aog(L.bj("m "+s.r,r,r,r,r,r,r),new V.akE(s)),o=B.ku(r,L.hA(C.D1,r),24,new V.akF(s),r),n=s.y
 n=n==null?"Loading":H.i(J.cS(n))+" GSC Coin"
 n=T.j7(H.a([q,p,o,L.bj(n,r,r,r,A.l5(r,r,C.f_,r,r,r,r,r,r,r,r,25,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),T.ex(r,50,r),B.ku(r,L.hA(C.D3,C.bZ),24,new V.akG(s),r)],t.p),C.bk,C.av)
 return new E.MM(!0,n,r)},
