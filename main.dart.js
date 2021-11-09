@@ -75401,14 +75401,17 @@ s=this.a
 return T.fa(B.aoF(new Y.ah9(s),s.e.xT(r),t.N),null,null)},
 $S:554}
 Y.ah9.prototype={
-$2(a,b){var s,r,q,p=null,o=b.b
-if(o!=null){s=this.a
-s.f=o
-new S.hL().zj(o)
-o=L.bj("You have",p,p,p,p,p,p)
-r=T.ex(p,50,p)
-q=s.f
-return T.j8(H.a([o,r,new V.BW(q,p),T.ex(p,50,p),L.bj("Your address is "+q,p,p,p,p,C.br,p),B.kt(p,L.hB(C.i3,p),24,new Y.ah8(s),p),E.ava(q,200,-1)],t.p),C.bk,C.av)}else return T.fa(U.atu(),p,p)},
+$2(a,b){var s,r,q,p,o,n=null,m=b.b
+if(m!=null){s=this.a
+r=m
+s.f=r
+new S.hL().zj(r)
+r=L.bj("You have",n,n,n,n,n,n)
+q=T.ex(n,50,n)
+m=H.i(m)
+p=T.ex(n,50,n)
+o=s.f
+return T.j8(H.a([r,q,new V.BW(m,n),p,L.bj("Your address is "+o,n,n,n,n,C.br,n),B.kt(n,L.hB(C.i3,n),24,new Y.ah8(s),n),E.ava(o,200,-1)],t.p),C.bk,C.av)}else return T.fa(U.atu(),n,n)},
 $S:555}
 Y.ah8.prototype={
 $0(){T.kh(new T.hY(this.a.f))},
@@ -75461,7 +75464,7 @@ s=new Q.aez(new M.a4o("https://ropsten.infura.io/v3/4c80c6dcc36745e59c312ce01cfa
 s.d=new Q.agx(H.a([],t.dN),s,H.a([],t.RD))
 r.e=s
 r.nB(r.r)},
-N(a,b){var s=this,r=null,q=Z.adr(s.f,C.D8,r),p=D.aoh(L.bj("a "+s.r,r,r,r,r,r,r),new V.akE(s)),o=B.kt(r,L.hB(C.D1,r),24,new V.akF(s),r),n=s.y
+N(a,b){var s=this,r=null,q=Z.adr(s.f,C.D8,r),p=D.aoh(L.bj("b "+s.r,r,r,r,r,r,r),new V.akE(s)),o=B.kt(r,L.hB(C.D1,r),24,new V.akF(s),r),n=s.y
 n=n==null?"Loading":H.i(J.cS(n))+" GSC Coin"
 n=T.j8(H.a([q,p,o,L.bj(n,r,r,r,A.l4(r,r,C.f_,r,r,r,r,r,r,r,r,25,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),T.ex(r,50,r),B.kt(r,L.hB(C.D3,C.bZ),24,new V.akG(s),r)],t.p),C.bk,C.av)
 return new E.MM(!0,n,r)},
