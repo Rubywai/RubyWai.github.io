@@ -75330,7 +75330,7 @@ s.f=p
 p=U.adl(L.bi("Show Value",q,q,q,q,q,q),new V.akC(s),q)
 r=s.x
 if(r==="hide")r=B.ku(q,L.hy(C.Da,q),24,new V.akD(s),q)
-else{r=r==null?"Loading":r+" GSC Coin"
+else{r=r==null?"Loading" RCoin"
 r=L.bi(r,q,q,q,A.l5(q,q,C.f_,q,q,q,q,q,q,q,q,25,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q)}return T.j7(H.a([p,r,T.ex(q,50,q),B.ku(q,L.hy(C.D9,C.bZ),24,new V.akE(s),q)],t.p),C.bj,C.av)}else return L.bi("Loading..",q,q,q,q,q,q)},
 $S:555}
 V.akC.prototype={
@@ -75362,7 +75362,7 @@ O(a,b){return new U.yh(new F.tl(new S.hI(),null),!1,null)}}
 F.tl.prototype={
 O(a,b){var s=null
 this.c.l_(0).bh(0,new F.a55(),t.P)
-return M.pA(E.o_(s,L.bi("GSC Wallet",s,s,s,s,s,s)),T.eL(T.j7(H.a([U.adl(L.bi("Create Wallet",s,s,s,s,s,s),new F.a56(b),s),U.adl(L.bi("Import Wallet",s,s,s,s,s,s),new F.a57(),s)],t.p),C.eY,C.av),s,s),s)}}
+return M.pA(E.o_(s,L.bi("Ruby Wallet",s,s,s,s,s,s)),T.eL(T.j7(H.a([U.adl(L.bi("Create Wallet",s,s,s,s,s,s),new F.a56(b),s),U.adl(L.bi("Import Wallet",s,s,s,s,s,s),new F.a57(),s)],t.p),C.eY,C.av),s,s),s)}}
 F.a55.prototype={
 $1(a){P.hj(a)
 if(a!=="")Y.aIb($.bV(),new Y.rR(null),t.z)},
@@ -75581,7 +75581,7 @@ new Q.tI().pY().bh(0,new V.akn(r,s),t.P)
 o=s.c.length
 o=T.y1(new B.z0(new G.acg(new V.ako(r,s),o,!0,!0,!0),p,C.r,!1,p,!0,C.jZ,!1,p,o,C.au,C.wl,p,C.as,p),8)
 q=r.d
-return T.j7(H.a([o,T.y1(q!==""?V.atn(Q.p_(L.bi("Pending..",p,p,p,p,p,p),p,L.bi("Hash "+H.i(q.split(",")[0])+" ",p,p,p,p,p,p),L.bi("Value "+H.i(r.d.split(",")[1])+" GSC Coin",p,p,p,p,p,p)),p):T.eL(L.bi("No pending transaction",p,p,p,p,p,p),p,p),2)],t.p),C.bj,C.av)}else if(b.c!=null)return T.eL(L.bi("Error..",p,p,p,p,p,p),p,p)
+return T.j7(H.a([o,T.y1(q!==""?V.atn(Q.p_(L.bi("Pending..",p,p,p,p,p,p),p,L.bi("Hash "+H.i(q.split(",")[0])+" ",p,p,p,p,p,p),L.bi("Value "+H.i(r.d.split(",")[1])+" Ruby Coin",p,p,p,p,p,p)),p):T.eL(L.bi("No pending transaction",p,p,p,p,p,p),p,p),2)],t.p),C.bj,C.av)}else if(b.c!=null)return T.eL(L.bi("Error..",p,p,p,p,p,p),p,p)
 else return T.eL(U.atq(),p,p)},
 $S:562}
 V.akn.prototype={
@@ -75611,7 +75611,7 @@ r=n.d
 r=L.bi(r==null?"":r,q,q,q,q,q,q)
 n=n.z
 n.toString
-n+=" GSC Coin"
+n+=" Ruby Coin"
 return V.atn(Q.p_(s,new V.akk(p,a,o,b),L.bi(n,q,q,q,A.l5(q,q,m?C.f0:C.f_,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),r),0)},
 $S:565}
 V.akk.prototype={
@@ -75644,7 +75644,7 @@ m=L.bi("Value",l,l,l,l,l,l)
 k=k.z
 k=Q.p_(l,l,L.bi(k==null?"":k,l,l,l,l,l,l),m)
 q=L.bi("Unit",l,l,l,l,l,l)
-q=Q.p_(l,l,L.bi("GSC Coin",l,l,l,l,l,l),q)
+q=Q.p_(l,l,L.bi("Ruby Coin",l,l,l,l,l,l),q)
 m=L.bi("Time",l,l,l,l,l,l)
 return M.pA(j,B.aur(H.a([r,p,o,n,k,q,Q.p_(l,l,L.bi(""+H.apm(s)+"/"+H.app(s)+"/"+H.zS(s)+"/  "+H.apn(s)+":"+H.apo(s)+":"+H.apq(s),l,l,l,l,l,l),m)],t.p)),l)}}
 M.a9k.prototype={}
